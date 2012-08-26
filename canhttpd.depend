@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1168545018 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\error.c
+	"error.h"
+	"socket_util.h"
+
+1168545018 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\error.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<errno.h>
+
+1171018700 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\socket_util.h
+	<sys/types.h>
+	<sys/fcntl.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<sys/select.h>
+	<unistd.h>
+	<windows.h>
+
+1168979231 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\main.c
+	"socket_util.h"
+	"server.h"
+	"error.h"
+
+1168545018 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\server.h
+
+1171034561 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\server.c
+	<string.h>
+	<time.h>
+	"socket_util.h"
+	"server.h"
+	"error.h"
+	"client_list.h"
+	"http.h"
+	"canbus.h"
+
+1168975956 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\client_list.h
+	"socket_util.h"
+
+1168961574 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\http.h
+	"client_list.h"
+
+1170534055 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\socket_util.c
+	"socket_util.h"
+	"error.h"
+	"canbus.h"
+
+1168975962 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\client_list.c
+	"client_list.h"
+	"error.h"
+
+1170159993 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\http.c
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<sys/stat.h>
+	"http.h"
+	"client_list.h"
+	"error.h"
+	"canbus.h"
+
+1169039743 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\canbus.c
+	<windows.h>
+	<stdio.h>
+	"error.h"
+	"http.h"
+	"canbus.h"
+
+1170028245 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\canbus.h
+	"canbus_spritze.h"
+	"canbus_streuer.h"
+
+1160059734 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\pcan_usb.h
+
+1170028245 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\canbus_spritze.h
+	<windows.h>
+	"Pcan_usb.h"
+	"error.h"
+	"http.h"
+
+1171029509 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\canbus_streuer.h
+	<windows.h>
+	"Pcan_usb.h"
+	"error.h"
+	"http.h"
+
+1171034520 c:\dokumente und einstellungen\hs\eigene dateien\firma\amazone\canhttpd\canbus_streuer.c
+	<windows.h>
+	<stdio.h>
+	"error.h"
+	"http.h"
+	"canbus_streuer.h"
+

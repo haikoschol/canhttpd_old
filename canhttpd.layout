@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="canbus.h" open="1" top="0">
+		<Cursor position="618" topLine="0"/>
+	</File>
+	<File name="canbus_spritze.c" open="1" top="0">
+		<Cursor position="617" topLine="68"/>
+	</File>
+	<File name="canbus_streuer.c" open="1" top="1">
+		<Cursor position="1268" topLine="28"/>
+	</File>
+	<File name="canbus_streuer.h" open="1" top="0">
+		<Cursor position="1004" topLine="11"/>
+	</File>
+	<File name="client_list.c" open="1" top="0">
+		<Cursor position="578" topLine="0"/>
+	</File>
+	<File name="client_list.h" open="1" top="0">
+		<Cursor position="878" topLine="7"/>
+	</File>
+	<File name="http.c" open="1" top="0">
+		<Cursor position="8915" topLine="379"/>
+	</File>
+	<File name="http.h" open="1" top="0">
+		<Cursor position="828" topLine="12"/>
+	</File>
+	<File name="main.c" open="1" top="0">
+		<Cursor position="874" topLine="15"/>
+	</File>
+	<File name="server.c" open="1" top="0">
+		<Cursor position="5600" topLine="228"/>
+	</File>
+	<File name="socket_util.c" open="1" top="0">
+		<Cursor position="778" topLine="9"/>
+	</File>
+	<File name="socket_util.h" open="1" top="0">
+		<Cursor position="1079" topLine="31"/>
+	</File>
+</CodeBlocks_layout_file>

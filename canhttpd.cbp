@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_project_file>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="1"/>
+	<Project>
+		<Option title="Console application"/>
+		<Option makefile="Makefile"/>
+		<Option makefile_is_custom="0"/>
+		<Option compiler="0"/>
+		<Build>
+			<Target title="default">
+				<Option output="C:\Dokumente und Einstellungen\hs\Eigene Dateien\Firma\amazone\canhttpd\canhttpd.exe"/>
+				<Option working_dir="."/>
+				<Option object_output=".objs"/>
+				<Option deps_output=".deps"/>
+				<Option type="1"/>
+				<Option compiler="0"/>
+				<Option projectResourceIncludeDirsRelation="1"/>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall"/>
+			<Add option="-g"/>
+		</Compiler>
+		<Linker>
+			<Add library="C:\Programme\CodeBlocks\lib\libws2_32.a"/>
+			<Add library="C:\Dokumente und Einstellungen\hs\Eigene Dateien\Firma\amazone\canhttpd\Pcan_usb.lib"/>
+		</Linker>
+		<Unit filename="canbus.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="canbus_spritze.c">
+			<Option compilerVar="CC"/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="canbus_spritze.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="canbus_streuer.c">
+			<Option compilerVar="CC"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="canbus_streuer.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="client_list.c">
+			<Option compilerVar="CC"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="client_list.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="error.c">
+			<Option compilerVar="CC"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="error.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="http.c">
+			<Option compilerVar="CC"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="http.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="server.c">
+			<Option compilerVar="CC"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="server.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="socket_util.c">
+			<Option compilerVar="CC"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="socket_util.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
